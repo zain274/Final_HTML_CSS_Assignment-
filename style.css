@@ -1,0 +1,487 @@
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.main-heading h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.main-heading span {
+    color: #fd2e00;
+}
+
+.main-paragraph {
+    color: black;
+    text-align: center;
+    margin: 15px auto;
+    max-width: 1500px;
+ }
+/* Header and Navigation Styling */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #ffdd57 !important;
+    font-size: 1.5rem;
+}
+
+/* Section Styling */
+.section {
+    padding: 80px 0;
+}
+
+.about, .services, .portfolio, .contact, .why-us, .process, .reviews, .skills, .packages {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+ /* Carousel Styling */
+
+ .carousel-header {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 250px;
+}
+
+.carousel-paragraph {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+ .carousel-item {
+    height: 450px; /* Set height for carousel items */
+    background-color: #343a40; /* Background color for carousel */
+    color: #ffdd57;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+#carouselExample {
+    margin-top: 40px; /* Adjust based on your navbar height */
+}
+
+.read-more-btn {
+    background-color: #ffffff; /* Yellow color */
+    color: #ff0000; /* Darker color for the text */
+    border: black; /* Remove default border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1.1rem; /* Font size */
+    border-radius: 20px; /* Rounded corners */
+    margin-top: 10px; /* Space above the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Smooth transition */
+}
+
+.read-more-btn:hover {
+    background-color: #f7d56f;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3) /* Slightly darker shade on hover */
+}
+
+.icon-section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+
+}
+
+.icon-section .icon-container {
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+}
+.icon-section .icon-container .icon-background {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #ffdd5796;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 0 auto;
+    text-shadow: 0 0 5px black ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-section .icon-container .icon-background:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.icon-section .icon-container .icon-background:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+.icon-section .icon-container .icon-background.innovation {
+    background: #ff5733; /* Vibrant Red */
+}
+.icon-section .icon-container .icon-background.quality {
+    background: #33c1ff; /* Bright Blue */
+}
+.icon-section .icon-container .icon-background.experience {
+    background: #75ff33; /* Vivid Green */
+}
+.icon-section .icon-container .icon-background.happy-clients {
+    background: #ffcc33; /* Sunny Yellow */
+}
+.icon-section .icon-container .icon-background.support {
+    background: #cc33ff; /* Bold Purple */
+}
+
+.icon-section .icon-container h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-shadow: 0 0 1px black;
+}
+
+.icon-section .icon-container p {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.about {
+    background-color: #e0e0e073;
+    padding: 100px 0;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about .main-heading h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 3.5rem; 
+}
+
+.about .main-heading span {
+    color: #fd2e00;
+}
+
+.about-description {
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.about-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left:30px;
+}
+
+.read-more-link {
+    background-color: #ffffff; /* Yellow color */
+    color: #ff0000; /* Darker color for the text */
+    border: black; /* Remove default border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1.1rem; /* Font size */
+    border-radius: 20px; /* Rounded corners */
+    margin-top: 10px; /* Space above the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Smooth transition */
+}
+
+.read-more-link:hover {
+    text-decoration: underline; /* Add underline on hover for better interaction */
+}
+
+/* Service Section */
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services-section h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fd2e00;
+    margin-bottom: 10px;
+}
+
+.services-section h2 span {
+    color: #333;
+    font-weight: bold;
+}
+
+.services-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Service Cards */
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.service-card {
+    width: 230px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    position: absolute;
+    top: -25px; /* Adjusts the vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffb400;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.service-icon span {
+    font-size: 25px;
+    color: red;
+    
+}
+
+.service-card h3 {
+    font-size: 15px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.service-card p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.service-card a {
+    font-size: 14px;
+    color: #fd2e00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service-card a:hover {
+    text-decoration: underline;
+}
+
+/* Portfolio Section */
+.portfolio {
+text-align: center;
+background-color: #1f2a35; 
+color: #fff;
+padding: 50px 20px;
+}
+
+.portfolio h2 {
+font-size: 3.5rem;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+.portfolio .highlight {
+color: #fd2e00; 
+}
+
+.portfolio p {
+color: #ccc;
+font-size: 16px;
+max-width: 600px;
+margin: 0 auto 40px;
+}
+
+.portfolio-nav {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin-bottom: 40px;
+}
+
+.portfolio-nav a {
+color: #ccc;
+font-size: 14px;
+text-decoration: none;
+padding: 5px 10px;
+font-weight: 500;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.portfolio-nav a:hover {
+color: #fd2e00;
+}
+
+.portfolio-nav .active {
+color: #fd2e00;
+border-bottom: 2px solid #fd2e00;
+}
+
+
+.portfolio-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+gap: 30px;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.portfolio-card {
+background-color: #2a3b4d;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+overflow: hidden;
+position: relative;
+}
+
+.portfolio-card img {
+width: 100%;
+height: auto;
+border-radius: 6px;
+}
+
+.logo-title {
+margin-top: 30px;
+font-size: 1rem;
+font-weight: bold;
+color: #fd2e00;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+
+.portfolio-card:hover {
+transform: scale(1.1);
+border: 2px solid #fd2e00;
+box-shadow: 0 4px 8px rgba(253, 46, 0, 10);
+}
+
+/* Our Process */
+.our-process {
+text-align: center;
+padding: 40px;
+}
+
+.our-process h2 {
+font-size: 3.5rem;
+font-weight: 600;
+color: #333;
+margin-bottom: 10px;
+}
+
+.our-process h2 span {
+color: #fd2e00;
+}
+
+.our-process p {
+font-size: 1em;
+color: #666;
+margin-bottom: 40px;
+}
+
+/* Process Steps Container */
+.process-steps {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+position: relative;
+}
+
+/* Each Step Styling */
+.process-step {
+width: 120px;
+padding: 20px;
+text-align: center;
+border-radius: 100%;
+transition: all 0.3s ease;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+position: relative;
+background: white;
+}
+
+.process-step:hover {
+transform: translateY(-10px);
+box-shadow: 0 6px 12px rgb(253, 46, 0, 0.6);
+}
+
+/* Step Number Circle */
+.step-number {
+width: 40px;
+height: 40px;
+background-color: #fd2e00;
+color: #fff;
+font-size: 1.2em;
+font-weight: bold;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto 10px;
+}
+
+/* Icon Styling */
+.step-icon {
+font-size: 2.5em;
+font-weight: bold;
+color: #333;
+margin-bottom: 10px;
+}
+
+/* Step Title */
+.process-step h3 {
+font-size: 1.2em;
+color: #333;
+margin-bottom: 5px;
+}
+
+/* Step Description */
+.process-step p {
+font-size: 0.8em;
+color: #666;
+margin: 0;
+}
+
+/* Connecting Lines */
+.process-step::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 50px;
+    height: 2px;
+    background-color: #ddd;
+    transform: translateY(-50%);
+}
+
+.process-step:last-child::after {
+    display: none;
+}
